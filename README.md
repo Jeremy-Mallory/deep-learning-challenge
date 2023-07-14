@@ -21,20 +21,31 @@ IS_SUCCESSFUL—Was the money used effectively
    Data Preprocessing:
 
 What variable(s) are the target(s) for your model?
+ 
   IS_SUCCESSFUL
   
 What variable(s) are the features for your model?
+  
   APPLICATION_TYPE
+  
   AFFILIATION
+  
   CLASSIFICATION
+ 
   USE_CASE
+  
   ORGANIZATION
+  
   STATUS
+  
   INCOME_AMT
+  
   SPECIAL_CONSIDERATIONS
+ 
   ASK_AMT
   
 What variable(s) should be removed from the input data because they are neither targets nor features?
+  
   EIN and NAME 
 
 Compiling, Training, and Evaluating the Model:
