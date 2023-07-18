@@ -50,9 +50,17 @@ What variable(s) should be removed from the input data because they are neither 
 
 Compiling, Training, and Evaluating the Model:
 
+
 How many neurons, layers, and activation functions did you select for your neural network model, and why?
+
+The initial model used 2 hidden layers with an 80/30 neuron split. Activation function relu was used as the default for deep learing models.
   
 Were you able to achieve the target model performance?
+
+These parameters yielded only 72% accuaracy, short of the 75% goal.
+
   
 What steps did you take in your attempts to increase model performance?
+
+Subsequent attempts tried first adding extra hidden layers, then changing activation functions with little to no effect on model accuracy. On the third attempt I used the keras tuner library to automatically find the best parameters to optimize the model's performance. 
   
