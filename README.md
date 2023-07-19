@@ -71,4 +71,4 @@ Subsequent attempts tried first adding extra hidden layers, then changing activa
 Summary:
 
 
-The final model from the keras tuner method achieved 72.9% prediction accuracy with a 0.45 loss. The optimal parameters according to the keras-tuner search were: relu activation function with input node of 46, 5 hidden layers at a 16, 21, 26, 11, 21, neurons split and 50 training epochs. 
+The final model from the keras tuner method achieved 72.9% prediction accuracy with a 0.45 loss. The optimal parameters according to the keras-tuner search were: relu activation function with input node of 46, 5 hidden layers at a 16, 16, 26, 1, 11, neurons split and 50 training epochs. 
