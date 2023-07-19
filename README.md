@@ -60,6 +60,9 @@ The initial model used 2 hidden layers with an 80/30 neuron split. Activation fu
 
 
 These parameters yielded only 72% accuaracy, short of the 75% goal.
+
+![model#1](https://github.com/Jeremy-Mallory/deep-learning-challenge/assets/122320256/5c3a029d-4f73-4d5c-aa84-1a5dd340fe8a)
+
   
    What steps did you take in your attempts to increase model performance?
 
@@ -71,4 +74,4 @@ Subsequent attempts tried first adding extra hidden layers, then changing activa
 Summary:
 
 
-The final model from the keras tuner method achieved 72.9% prediction accuracy with a 0.45 loss. The optimal parameters according to the keras-tuner search were: relu activation function with input node of 46, 5 hidden layers at a 16, 16, 26, 1, 11, neurons split and 50 training epochs. 
+The final model from the keras tuner method achieved 72.9% prediction accuracy with a 0.55 loss. The optimal parameters according to the keras-tuner search were: relu activation function with input node of 46, 5 hidden layers at a 16, 16, 26, 1, 11, neurons split and 50 training epochs. I suspect that the next step would be to manipulate the shape of data itself and possibly add more information about each organization in order to build a more accurate model. 
