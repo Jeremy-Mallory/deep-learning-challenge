@@ -64,5 +64,11 @@ These parameters yielded only 72% accuaracy, short of the 75% goal.
    What steps did you take in your attempts to increase model performance?
 
 
-Subsequent attempts tried first adding extra hidden layers, then changing activation functions with little to no effect on model accuracy. On the third attempt I used the keras tuner library to automatically find the best parameters to optimize the model's performance. 
-  
+Subsequent attempts tried first adding extra hidden layers, then changing activation functions with little to no effect on model accuracy. On the fourth attempt I used the keras tuner library to automatically find the best parameters to optimize the model's performance. 
+
+
+
+Summary:
+
+
+After using keras-tuner to search for the best parameters for the model O found that the accuracy was only marginally better at 72.9%, still short of the 75% goal. 
