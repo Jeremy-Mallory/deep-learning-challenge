@@ -55,6 +55,9 @@ What variable(s) should be removed from the input data because they are neither 
 
 
 The initial model used 2 hidden layers with an 80/30 neuron split. Activation function relu was used as the default for deep learing models.
+
+![model_attempt1](https://github.com/Jeremy-Mallory/deep-learning-challenge/assets/122320256/c6e9ffcd-16d4-4287-9d43-4b5713912c75)
+
   
    Were you able to achieve the target model performance?
 
@@ -67,11 +70,30 @@ These parameters yielded only 72% accuaracy, short of the 75% goal.
    What steps did you take in your attempts to increase model performance?
 
 
-Subsequent attempts tried first adding extra hidden layers, then changing activation functions with little to no effect on model accuracy. On the fourth attempt I used the keras tuner library to automatically find the best parameters to optimize the model's performance. 
+Subsequent attempts tried first adding extra hidden layers.
+
+![model_attempt_3](https://github.com/Jeremy-Mallory/deep-learning-challenge/assets/122320256/90378721-4fda-4d2a-afeb-4d2ae0b03f69)
+
+![model#3png](https://github.com/Jeremy-Mallory/deep-learning-challenge/assets/122320256/de426583-7e21-4c1d-91cc-6809253338b9)
 
 
+After that, changing activation functions. 
 
-Summary:
+![model_attempt2](https://github.com/Jeremy-Mallory/deep-learning-challenge/assets/122320256/a14bb532-558d-4e72-8a97-b56bf0cb9e79)
+
+![model#2](https://github.com/Jeremy-Mallory/deep-learning-challenge/assets/122320256/b9fecfaa-8270-439d-b618-c5884f8626a9)
+
+
+On the fourth attempt I used the keras tuner library to automatically find the best parameters to optimize the model's performance. 
+
+![keras_tuner](https://github.com/Jeremy-Mallory/deep-learning-challenge/assets/122320256/9a0a9cf4-d613-41da-b7ef-d112d6a14aa5)
+
+![keras_search](https://github.com/Jeremy-Mallory/deep-learning-challenge/assets/122320256/9620ac1c-351c-489c-9abc-e0a3d667dae1)
+
+![model#4](https://github.com/Jeremy-Mallory/deep-learning-challenge/assets/122320256/ea338474-9fd3-4ffd-8114-1ab432c08f2e)
+
+
+3. Summary:
 
 
 The final model from the keras tuner method achieved 72.9% prediction accuracy with a 0.55 loss. The optimal parameters according to the keras-tuner search were: relu activation function with input node of 46, 5 hidden layers at a 16, 16, 26, 1, 11, neurons split and 50 training epochs. I suspect that the next step would be to manipulate the shape of data itself and possibly add more information about each organization in order to build a more accurate model. 
